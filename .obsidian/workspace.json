@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "b98c495e29d91ef2",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c7e2f05dc917d46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "809171b1a8648f87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f31e52733e8106c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "22409f8b0accf268",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebd9f99dc5a33643",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "220a71395160bf5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "183f3adb493b8c74",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0361be50398aa740",
+    "type": "split",
+    "children": [
+      {
+        "id": "b86a5c180576114a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "562c5670efc01b0d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JDBC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for JDBC"
+            }
+          },
+          {
+            "id": "ed89fb475b91b620",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "951e3adbb46ed77b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cc50803f117abbf3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JDBC.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of JDBC"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "809171b1a8648f87",
+  "lastOpenFiles": [
+    "JDBC.md",
+    "Nest.js.md",
+    "Node.js.md",
+    "Javascript.md",
+    "Typescript.md",
+    "Spring.md",
+    "Spring Boot를 활용하여 채팅 플랫폼 만들어보기.md",
+    "Ktor.md",
+    "Kotlin.md",
+    "제목 없는 다이어그램.md",
+    "Obsidian.md",
+    "Express.md",
+    "JQuery.md",
+    "Jira.md",
+    "Frontend.md",
+    "MongoDB.md",
+    "Java.md",
+    "TheAvengers2012Poster.md",
+    "movie_image2.md",
+    "BigBuck.md",
+    "avengers.md",
+    "jimList.md",
+    "index.md",
+    "layout.md",
+    "basic.md",
+    "9999f88e-8167-4350-ad47-a00ed8d5eee6_FE_Project.pdf",
+    "Install_NexonPlug.exe",
+    "세탁기.md",
+    "layout.css",
+    "basic.css",
+    "jimList.html",
+    "index.html",
+    "KungFuPanda_Sample.mp4",
+    "BigBuck.theora.ogv",
+    "avengers.mp4",
+    "TheAvengers2012Poster.jpg",
+    "sidebar_section_background.png",
+    "sidebar_background.png",
+    "poster.jpg",
+    "pattern.png",
+    "nav_background.png",
+    "movie_image2.jpg",
+    "intro_flower.png",
+    "intro_background.png",
+    "blackWidow.png",
+    "Frontend/KungFuPanda_Sample.mp4",
+    "Untitled.canvas"
+  ]
+}
