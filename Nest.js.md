@@ -7,6 +7,7 @@ npm install @nestjs/common@7.6.17 @nestjs/core@7.6.17 @nestjs/platform-express@7
 ```
 
 # 설치
+
 ```shell
 # nest-cli 설치
 npm install -g @nestjs/cli
@@ -14,6 +15,18 @@ npm install -g @nestjs/cli
 # 프로젝트 생성
 nest new name
 ```
+
+# 네이밍 규칙
+1. 파일명은 .으로 연결합니다. 모듈이 둘 이상의 단어로 구성되어 있으면 대시로 연결합니다.
+
+```TypeScript
+// <모듈명>.<컴포넌트명>.ts
+hello.controller.ts
+my-first.controller.ts
+```
+
+2. 
+
 # 3. **기본 개념 및 아키텍처**
 
 Nest.js는 **모듈(Module) 기반 아키텍처**를 사용하여 애플리케이션을 구성합니다. 이 구조는 **대규모 애플리케이션에서도 유지보수와 확장성을 높이는 역할**을 합니다.
