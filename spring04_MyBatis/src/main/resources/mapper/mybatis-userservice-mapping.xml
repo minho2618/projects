@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- SQL definition -->
+<mapper namespace="UserMapper">
+<!--  컬럼명이랑 필드명이 다르면 user 안담긴다...AS를 이용해서 Alias를 사용-->
+	<select id="getUserList" resultType="user">
+		SELECT
+		user_id AS userId, 
+		user_name  AS userName,
+		password,
+		age,
+		grade,
+		reg_date  AS regDate
+		FROM users
+	</select>
+</mapper>

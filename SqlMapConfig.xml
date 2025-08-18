@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!-- 1. db information wiring -->
+<properties resource="config/dbconn.properties"/>
+
+ <settings>
+	<setting name="jdbcTypeForNull" value="NULL"/>
+</settings> 
+
+<!-- 2. vo  information wiring-->
+<typeAliases>
+	<typeAlias type="com.service.spring.domain.Item" alias="item"/>
+</typeAliases>
+
+<!-- 3. jdbc  environment wiring-->
+<environments default="aa">
+	<environment id="aa">
+		<transactionManager type="JDBC" />
+		<dataSource type="UNPOOLED"> <!--  DriverManager방식 -->
+			<property name="driver" value="${jdbc.mysql.driver}"/>
+			<property name="url" value="${jdbc.mysql.url}"/>
+			<property name="username" value="${jdbc.mysql.username}"/>
+			<property name="password" value="${jdbc.mysql.password}"/>		
+		</dataSource>
+	</environment>
+</environments>
+
+<mappers>
+	<mapper resource="mapper/mybatis-fruits-mapping.xml" />
+</mappers>
+</configuration>
+
+
+
+
+
+
+

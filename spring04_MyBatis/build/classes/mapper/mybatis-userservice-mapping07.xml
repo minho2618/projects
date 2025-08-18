@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+1. ResultMap 2)
+
+   컬럼 Alias :: 디비 컬럼명과 자바 필드명이 다를때...1)
+   SELECT문에서 사용됨......
+   getList   getUser........SELECT ...... resultType="string" | user | user
+   
+    컬럼 Alias ::  이 부분을 사용하지 않으려면 ResultMap을 한번 지정하면 된다.
+2. Dynamic Query
+   SQL Query문의 대부분으뉴 90%이상이 SELECT문이다.
+   DML
+      1)INSERT
+      2)DELETE
+      3)UPDATE
+   4)SELECT
+   
+   이유는? 조건절에 있다.
+   WHERE
+   
+   Static Query(정적 쿼리문)
+   SELECT * FROM users WHERE name='홍길동';
+   SELECT * FROM users WHERE age=30;
+   SELECT * FROM users WHERE name='홍길동' AND age=30;
+   SELECT * FROM users;
+   
+   Dynamic Query(동적 쿼리문)
+   SELECT * FROM users  ?  :::: 위 정적 쿼리 4개 이상을 다 포괄할 수 있다.
+ -->
+<mapper namespace="UserMapper07">	
+
+<resultMap type="user" id="userSelectRM">
+	<result property="userId" column="user_id"/>
+	<result property="userName" column="user_name"/>
+	<result property="password" column="password"/>
+	<result property="age" column="age"/>
+	<result property="grade" column="grade"/>
+	<result property="regDate" column="reg_date"/>
+</resultMap>
+
+<!-- static query -->
+<select id="getUserList01" parameterType="user" resultMap="userSelectRM">
+	SELECT
+	user_id, user_name, password, age, reg_date
+	FROM users
+	WHERE password=#{password}
+</select>
+
+<select id="getUserList" parameterType="user" resultMap="userSelectRM">
+	SELECT
+	user_id, user_name, password, age, reg_date
+	FROM users
+	<where>
+		<if test="userName != null ">
+			user_name LIKE #{userName} 
+		</if>
+		<if test="age != null ">
+			OR age LIKE #{age}
+		</if>
+	</where>
+	ORDER BY user_id DESC
+</select>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

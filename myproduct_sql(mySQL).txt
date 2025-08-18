@@ -1,0 +1,7 @@
+drop table myproduct;
+CREATE TABLE myproduct(
+id int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name varchar(30),
+maker varchar(30),
+price int(10));
+

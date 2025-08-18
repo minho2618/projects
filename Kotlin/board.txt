@@ -1,0 +1,18 @@
+drop table member;
+create table member(
+	id varchar(50) primary key,
+	password varchar(50) not null,
+	name varchar(50) not null,
+	address varchar(50)
+);
+
+drop table springboard;		
+create table springboard(
+	no int(10) not null auto_increment primary key,
+	title varchar(100) not null,
+	content varchar(1000) not null,
+	count int(5) default 0,
+	w_date date not null,
+	id varchar(50) not null,
+	constraint fk_id foreign key(id) references member(id)
+);
