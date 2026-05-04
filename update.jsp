@@ -1,56 +1,36 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+	h2{
+		text-align: center;
+		color: purple;
+	}
+	#wrap{
+		margin-left: 220px;		
+	}
+</style>
+<script type="text/javascript">
+	function btnclick(){
+		alert("button Click~~!!!");
+	}
+</script>
 </head>
 <body>
-<form method=post action="updateBoard">	
-<table cellpadding="5">
-	<tr>
-		<td>
-			<table width="550">
-				<tr>
-					<td>
-					<b>글번호: <input type=text name=no value=${bvo.no } readonly></input>
-					| 타이틀:<input type=text name=title value=${bvo.title }></input></b>
-					<hr style="color:#6691BC;border-style:dotted;margin: 0">
-					</td></tr><tr>	<td>
-						<font size="2">작성자: <input type=text name=writer 
-						value=${bvo.member.name }  readonly></input>| 
-						작성일시:${bvo.writeDate } 
-					</font>
-					</td>
-				</tr>
-
-				<tr>
-					<td>
-						<hr style="color:#6691BC;margin: 0">
-						<textarea rows="15" cols="75" name="content">${bvo.content }</textarea>
-					</td>
-				</tr>
-				<tr>
-					<td valign="middle">						
-					<input type="submit" value="수정하기"	></input>			
-					</td>				
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table>
-</form>	
+<h2>UPDATE MEMBER FORM</h2>
+<div id="wrap">
+	<form action="update.do" method="post">		
+		ID <input type="text" name="id" value="${vo.id}" readonly="readonly"><br><br>
+		PASS <input type="password" name="password" value="${vo.password}"><br><br>
+		NAME <input type="text" name="name" value="${vo.name}"><br><br>
+		ADDR <input type="text" name="address" value="${vo.address}"><br><br>
+		<input type="submit" value="UPDATE">
+		<input type="button" value="CLICK" onclick="btnclick()">
+	</form>
+</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
