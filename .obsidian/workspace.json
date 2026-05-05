@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "984c38d0af8acf93",
+    "type": "split",
+    "children": [
+      {
+        "id": "704f71baa5935492",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bca512405892c7a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c95e00cd7a84bb78",
+    "type": "split",
+    "children": [
+      {
+        "id": "143a1a327145871b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e854a545b194cf96",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "9484426096253a5d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "94dc98e400343c67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "eb5522a04555e121",
+    "type": "split",
+    "children": [
+      {
+        "id": "30d1f068d75c5bd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "701d0990f30e3a58",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ 의 백링크"
+            }
+          },
+          {
+            "id": "7971b9c6a3e01df8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ 의 나가는 링크"
+            }
+          },
+          {
+            "id": "08bec87cfc0fca3c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "2c21cfa2f16a42b4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "ca66a996569fdd26",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "bca512405892c7a8",
+  "lastOpenFiles": [
+    "posts",
+    "web/dto/PostsUpdateRequestDto.java",
+    "web/dto/PostsSaveRequestDto.java",
+    "web/dto/PostsResponseDto.java",
+    "web/dto/HelloResponseDto.java",
+    "web/dto/PostsListResponseDto.java",
+    "web/PostsApiController.java",
+    "web/IndexController.java",
+    "web/HelloController.java",
+    "web/dto",
+    "web",
+    "01 프로그래밍/01 Spring/Fatory Pattern.md",
+    "01 프로그래밍/01 Spring/01 Spring Security/slick.woff.md",
+    "01 프로그래밍/01 Spring/01 Spring Security/slick.ttf.md",
+    "01 프로그래밍/01 Spring/01 Spring Security/slick.svg.md",
+    "01 프로그래밍/01 Spring/01 Spring Security/slick.eot.md",
+    "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
+    "01 프로그래밍/01 Spring/slick/slick-theme.scss.md",
+    "01 프로그래밍/01 Spring/slick/slick-theme.less.md",
+    "01 프로그래밍/01 Spring/slick/slick-theme.css.md",
+    "01 프로그래밍/01 Spring/slick/slick.scss.md",
+    "01 프로그래밍/01 Spring/slick/slick.min.js.md",
+    "01 프로그래밍/01 Spring/slick/slick.less.md",
+    "01 프로그래밍/01 Spring/slick/slick.js.md",
+    "01 프로그래밍/01 Spring/slick/slick.css.md",
+    "01 프로그래밍/01 Spring/slick/config.rb.md"
+  ]
+}
