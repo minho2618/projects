@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
+                "file": "2026-05-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ"
+              "title": "2026-05-26"
+            }
+          },
+          {
+            "id": "0752f8f77478fb42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-05-27.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-27"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "eb5522a04555e121",
@@ -184,8 +198,30 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "bca512405892c7a8",
+  "active": "0752f8f77478fb42",
   "lastOpenFiles": [
+    "2026-05-26.md",
+    "2026-05-27.md",
+    "01 프로그래밍/04 Embedded/Front (1).md",
+    "01 프로그래밍/04 Embedded/Front (2).md",
+    "01 프로그래밍/03 FrontEnd/02 React/01 React.md",
+    "01 프로그래밍/05 Application/Flutter.md",
+    "01 프로그래밍/02 Backend/01 Spring/Spring Security.md",
+    "ZUM_AUTO_LAUNCH_BY_E4DB5744BE-73974690.md",
+    "01 프로그래밍/03 FrontEnd/Tailwind CSS.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/slick.jquery.json.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/package.json.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/Makefile.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/LICENSE.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/index.html.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/CONTRIBUTING.markdown.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/component.json.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/bower.json.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick-1.8.1/adf.gitignore.md",
+    "Nest.js (2).md",
+    "01 프로그래밍/02 FrontEnd/mod.manifest",
+    "Nest.js.md",
+    "01 프로그래밍/02 Backend/01 Spring/Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
     "posts",
     "web/dto/PostsUpdateRequestDto.java",
     "web/dto/PostsSaveRequestDto.java",
@@ -195,22 +231,10 @@
     "web/PostsApiController.java",
     "web/IndexController.java",
     "web/HelloController.java",
-    "web/dto",
-    "web",
-    "01 프로그래밍/01 Spring/Fatory Pattern.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/slick.woff.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/slick.ttf.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/slick.svg.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/slick.eot.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
-    "01 프로그래밍/01 Spring/slick/slick-theme.scss.md",
-    "01 프로그래밍/01 Spring/slick/slick-theme.less.md",
-    "01 프로그래밍/01 Spring/slick/slick-theme.css.md",
-    "01 프로그래밍/01 Spring/slick/slick.scss.md",
-    "01 프로그래밍/01 Spring/slick/slick.min.js.md",
-    "01 프로그래밍/01 Spring/slick/slick.less.md",
-    "01 프로그래밍/01 Spring/slick/slick.js.md",
-    "01 프로그래밍/01 Spring/slick/slick.css.md",
-    "01 프로그래밍/01 Spring/slick/config.rb.md"
+    "01 프로그래밍/02 Backend/01 Spring/Spring Security/slick.woff.md",
+    "01 프로그래밍/02 Backend/01 Spring/Spring Security/slick.ttf.md",
+    "01 프로그래밍/02 Backend/01 Spring/Spring Security/slick.svg.md",
+    "01 프로그래밍/02 Backend/01 Spring/Spring Security/slick.eot.md",
+    "01 프로그래밍/02 Backend/01 Spring/slick/slick-theme.scss.md"
   ]
 }
