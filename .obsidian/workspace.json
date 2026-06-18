@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "704f71baa5935492",
+        "id": "4b8c6cde38e626a5",
         "type": "tabs",
         "children": [
           {
-            "id": "bca512405892c7a8",
+            "id": "4b94510c4b90e2b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ"
+              "title": "새 탭"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "eb5522a04555e121",
@@ -184,33 +179,47 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "bca512405892c7a8",
+  "active": "e854a545b194cf96",
   "lastOpenFiles": [
-    "posts",
-    "web/dto/PostsUpdateRequestDto.java",
-    "web/dto/PostsSaveRequestDto.java",
-    "web/dto/PostsResponseDto.java",
-    "web/dto/HelloResponseDto.java",
-    "web/dto/PostsListResponseDto.java",
-    "web/PostsApiController.java",
-    "web/IndexController.java",
-    "web/HelloController.java",
-    "web/dto",
-    "web",
-    "01 프로그래밍/01 Spring/Fatory Pattern.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/slick.woff.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/slick.ttf.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/slick.svg.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/slick.eot.md",
-    "01 프로그래밍/01 Spring/01 Spring Security/ㅁㄴㅇㄻㄴㅇㄹㄴㅇㅁ.md",
-    "01 프로그래밍/01 Spring/slick/slick-theme.scss.md",
-    "01 프로그래밍/01 Spring/slick/slick-theme.less.md",
-    "01 프로그래밍/01 Spring/slick/slick-theme.css.md",
-    "01 프로그래밍/01 Spring/slick/slick.scss.md",
-    "01 프로그래밍/01 Spring/slick/slick.min.js.md",
-    "01 프로그래밍/01 Spring/slick/slick.less.md",
-    "01 프로그래밍/01 Spring/slick/slick.js.md",
-    "01 프로그래밍/01 Spring/slick/slick.css.md",
-    "01 프로그래밍/01 Spring/slick/config.rb.md"
+    "test_hello.js.md",
+    "hello.js.md",
+    "cancel.gif.md",
+    "BookController.md",
+    "프로젝트/할일관리앱/체크리스트.md",
+    "프로젝트/할일관리앱/설계/아키텍처.md",
+    "프로젝트/할일관리앱/설계/데이터베이스.md",
+    "프로젝트/할일관리앱/설계/API설계.md",
+    "프로젝트/할일관리앱/hello.js.md",
+    "프로젝트/할일관리앱/test_hello.js.md",
+    "프로젝트/할일관리앱/test_hello.js",
+    "프로젝트/할일관리앱/hello.js",
+    "프로젝트/할일관리앱/설계/book (3).md",
+    "프로젝트/할일관리앱/설계/Book (2).md",
+    "템플릿/템플릿.md",
+    "홈.md",
+    "프로젝트.md",
+    "레퍼런스/레퍼런스.md",
+    "프로젝트/할일관리앱/프로젝트-개요.md",
+    "프로젝트/할일관리앱/에러로그.md",
+    "테스트.md",
+    "프로젝트/할일관리앱/cancel.gif.md",
+    "프로젝트/할일관리앱/dbconn.properties.md",
+    "SQL.md",
+    "src/index.js",
+    "src/firebase.js",
+    "routes/Profile.js",
+    "routes/package.json",
+    "routes/Auth.js",
+    "routes",
+    "public/robots.txt",
+    "public/manifest.json",
+    "public/logo512.png",
+    "public/logo192.png",
+    "2026-06-01.md",
+    "star_orange 1.gif",
+    "images/Pasted image 20250704170017.png",
+    "Front (1).md",
+    "1036e17e-a227-4213-b24b-3cc84c6d63fa_프론트_포트폴리오.md",
+    "1.md"
   ]
 }
